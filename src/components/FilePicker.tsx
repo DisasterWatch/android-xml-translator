@@ -21,6 +21,7 @@ export default function FilePicker({
         >
             <Title>Select a file to translate</Title>
             <FileInput
+                placeholder="Click here"
                 style={{ minWidth: "300px" }}
                 accept="text/xml"
                 onChange={async (file) => {
