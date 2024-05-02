@@ -18,6 +18,11 @@ export function parseStringsXMLFile(
         const stringNode = stringNodes[i];
         const nameAttr = stringNode.getAttribute("name");
         const value = stringNode.textContent?.trim();
+        const translatable = stringNode.getAttribute("translatable");
+
+        if (translatable?.toString() === "false") {
+            continue;
+        }
 
         if (!nameAttr) {
             return new Error(
