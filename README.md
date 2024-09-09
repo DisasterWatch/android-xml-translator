@@ -6,7 +6,7 @@ This is a simple tool meant to be used by non-technical people to help out in tr
 
 ## Usage
 
-1. Open the app
+1. Open the web app
 2. Select the untranslated `strings.xml` file using the displayed file picker
 3. Write the translations of the text in the text boxes
 4. When done, click on `Download Result` to get the new XML file
